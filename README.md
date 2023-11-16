@@ -1,4 +1,6 @@
-# VALUE ITERATION ALGORITHM
+### EX NO: 04
+### DATE:
+# <p align="center">VALUE ITERATION ALGORITHM</p>
 
 ## AIM:
 
@@ -32,6 +34,9 @@ The algorithm is as follows:
   
 ## VALUE ITERATION FUNCTION
 ```python
+# Developed by: Sandhya Charu N
+# Register Number: 212220230041
+
 def value_iteration(P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
     while True:
