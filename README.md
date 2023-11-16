@@ -32,7 +32,6 @@ The algorithm is as follows:
 4.The optimal policy can be constructed by taking the argmax of the action-value function Q(s, a) over all actions a.
 5.Return the optimal policy and the optimal value function.
 
-  <br>
   
 ## VALUE ITERATION FUNCTION
 ```python
